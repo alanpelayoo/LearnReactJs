@@ -14,6 +14,16 @@ nav {
   background-color: #21222A;
   height: 90px;
   padding: 30px 25px;
+  
+}
+
+nav.light {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 90px;
+  padding: 30px 25px;
+  
 }
 
 .nav--logo_text, .nav--title {
@@ -43,7 +53,12 @@ main {
   background-image: url('assets/reactjs-icon 2.png');
   background-repeat: no-repeat;
   background-position: right 75%;
-  
+  height: 100vh;
+}
+
+main.light {
+  color: black;
+  background: white;
 }
 
 .main--title {
@@ -65,3 +80,17 @@ main {
   font-size: 1.4rem;
   color: #61DAFB;
 }
+
+.button{
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-family: Inter, sans-serif;
+}
+
+nav.light button{
+  background-color: black;
+  color: white;
+}
+
